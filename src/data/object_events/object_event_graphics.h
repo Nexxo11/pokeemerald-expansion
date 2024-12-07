@@ -454,3 +454,25 @@ const u16 gObjectEventPal_BeastBall[] = INCBIN_U16("graphics/object_events/pics/
 const u16 gObjectEventPal_StrangeBall[] = INCBIN_U16("graphics/object_events/pics/misc/ball_strange.gbapal");
 #endif //ITEM_STRANGE_BALL
 #endif //OW_FOLLOWERS_POKEBALLS
+const u32 gObjectEventPic_may_walking[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/may_walking.4bpp");
+const u16 gObjectEventPal_may_walking[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/may_walking.gbapal");
+const u32 gObjectEventPic_percy[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/percy.4bpp");
+const u16 gObjectEventPal_percy[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/percy.gbapal");
+const u32 gObjectEventPic_roxana[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/roxana.4bpp");
+const u16 gObjectEventPal_roxana[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/roxana.gbapal");
+const u32 gObjectEventPic_lucas[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/lucas.4bpp");
+const u16 gObjectEventPal_lucas[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/lucas.gbapal");
+const u32 gObjectEventPic_chano[] = INCBIN_U32("graphics/object_events/pics/people/secondary_characters/chano.4bpp");
+const u16 gObjectEventPal_chano[] = INCBIN_U16("graphics/object_events/pics/people/secondary_characters/chano.gbapal");
+const u32 gObjectEventPic_girl_pink_hair[] = INCBIN_U32("graphics/object_events/pics/people/secondary_characters/girl_pink_hair.4bpp");
+const u16 gObjectEventPal_girl_pink_hair[] = INCBIN_U16("graphics/object_events/pics/people/secondary_characters/girl_pink_hair.gbapal");
+const u32 gObjectEventPic_little_boy_brown[] = INCBIN_U32("graphics/object_events/pics/people/secondary_characters/little_boy_brown.4bpp");
+const u16 gObjectEventPal_little_boy_brown[] = INCBIN_U16("graphics/object_events/pics/people/secondary_characters/little_boy_brown.gbapal");
+const u32 gObjectEventPic_little_girl_brown[] = INCBIN_U32("graphics/object_events/pics/people/secondary_characters/little_girl_brown.4bpp");
+const u16 gObjectEventPal_little_girl_brown[] = INCBIN_U16("graphics/object_events/pics/people/secondary_characters/little_girl_brown.gbapal");
+const u32 gObjectEventPic_old_people[] = INCBIN_U32("graphics/object_events/pics/people/secondary_characters/old_people.4bpp");
+const u16 gObjectEventPal_old_people[] = INCBIN_U16("graphics/object_events/pics/people/secondary_characters/old_people.gbapal");
+const u32 gObjectEventPic_roger[] = INCBIN_U32("graphics/object_events/pics/people/secondary_characters/roger.4bpp");
+const u16 gObjectEventPal_roger[] = INCBIN_U16("graphics/object_events/pics/people/secondary_characters/roger.gbapal");
+const u32 gObjectEventPic_talia[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/talia.4bpp");
+const u16 gObjectEventPal_talia[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/talia.gbapal");
