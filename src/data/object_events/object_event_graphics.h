@@ -454,7 +454,7 @@ const u16 gObjectEventPal_BeastBall[] = INCBIN_U16("graphics/object_events/pics/
 const u16 gObjectEventPal_StrangeBall[] = INCBIN_U16("graphics/object_events/pics/misc/ball_strange.gbapal");
 #endif //ITEM_STRANGE_BALL
 #endif //OW_FOLLOWERS_POKEBALLS
-const u32 gObjectEventPic_may_walking[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/may_walking.4bpp");
+const u32 gObjectEventPic_may_walking[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/may_walking.4bpp", "graphics/object_events/pics/people/main_characters/may_running.4bpp");
 const u16 gObjectEventPal_may_walking[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/may_walking.gbapal");
 const u32 gObjectEventPic_percy[] = INCBIN_U32("graphics/object_events/pics/people/main_characters/percy.4bpp");
 const u16 gObjectEventPal_percy[] = INCBIN_U16("graphics/object_events/pics/people/main_characters/percy.gbapal");

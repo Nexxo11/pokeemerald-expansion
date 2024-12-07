@@ -4776,6 +4776,9 @@ graphics/door_anims/battle_tower_multi_corridor.4bpp: %.4bpp: %.png
 $(OBJEVENTGFXDIR)/people/main_characters/may_walking.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 
+$(OBJEVENTGFXDIR)/people/main_characters/may_running.4bpp: %.4bpp: %.png
+	$(GFX) $< $@ -mwidth 4 -mheight 4
+
 $(OBJEVENTGFXDIR)/people/main_characters/percy.4bpp: %.4bpp: %.png
 	$(GFX) $< $@ -mwidth 4 -mheight 4
 

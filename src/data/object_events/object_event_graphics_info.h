@@ -4686,7 +4686,7 @@ const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_may_walking = {
     .tracks = FALSE,
     .oam = &gObjectEventBaseOam_32x32,
     .subspriteTables = sOamTables_32x32,
-    .anims = sAnimTable_Standard,
+    .anims = sAnimTable_BrendanMayNormal,
     .images = sPicTable_may_walking,
     .affineAnims = gDummySpriteAffineAnimTable,
 };
