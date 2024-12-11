@@ -360,7 +360,7 @@ static void Task_OptionMenuSave(u8 taskId)
     BeginNormalPaletteFade(PALETTES_ALL, 0, 0, 16, RGB_BLACK);
     gTasks[taskId].func = Task_OptionMenuFadeOut;
 }
-
+#include "title_screen.h"
 static void Task_OptionMenuFadeOut(u8 taskId)
 {
     if (!gPaletteFade.active)
@@ -368,6 +368,8 @@ static void Task_OptionMenuFadeOut(u8 taskId)
         DestroyTask(taskId);
         FreeAllWindowBuffers();
         SetMainCallback2(gMain.savedCallback);
+        SetMainCallback2(CB2_InitTitleScreen);
+        //gTasks[taskId].func = Task_HandleMainMenuBPressed;
     }
 }
 
