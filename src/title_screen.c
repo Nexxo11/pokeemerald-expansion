@@ -718,7 +718,7 @@ static void HandleTitleScreenSelection(u8 cursorPosition, u8 taskId)
         SetMainCallback2(CB2_NewGame);
         break;
     case 2:
-        gMain.savedCallback = CB2_ReinitMainMenu;
+        gMain.savedCallback = CB2_InitTitleScreen;
         SetMainCallback2(CB2_InitOptionMenu);
         DestroyTask(taskId);
         break;
